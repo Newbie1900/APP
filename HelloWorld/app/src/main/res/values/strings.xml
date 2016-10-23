@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="app_plus">+</string>
+    <string name="app_subtract">-</string>
+    <string name="app_multiply">×</string>
+    <string name="app_divide">÷</string>
+    <string name="app_equal">=</string>
+    <string name="app_clear">←</string>
+    <string name="app_textview1">过程显示框</string>
+</resources>
