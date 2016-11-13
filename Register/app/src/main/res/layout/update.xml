@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6">
+
+        <TextView
+            android:text="学号："
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif" />
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="#EEEFFF" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ET_update_sno"
+            android:layout_weight="4"
+            android:inputType="number"
+            android:background="@null"
+            android:clickable="false"
+            android:enabled="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="编辑"
+            android:id="@+id/btn_update_etsno"
+            android:layout_weight="1"
+            android:background="@drawable/white_selector"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6">
+
+        <TextView
+            android:text="姓名："
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical" />
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="#EEEFFF" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ET_update_sname"
+            android:layout_weight="4"
+            android:inputType="text"
+            android:background="@null"
+            android:clickable="false"
+            android:enabled="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="编辑"
+            android:id="@+id/btn_update_etsname"
+            android:layout_weight="1"
+            android:background="@drawable/white_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6">
+
+        <TextView
+            android:text="班级："
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical" />
+        <View
+            android:id="@+id/view3"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="#EEEFFF" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ET_update_class"
+            android:layout_weight="4"
+            android:inputType="text"
+            android:background="@null"
+            android:clickable="false"
+            android:enabled="false" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="编辑"
+            android:id="@+id/btn_update_etclass"
+            android:layout_weight="1"
+            android:background="@drawable/white_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_update_sure"
+                android:layout_weight="1"
+                android:text="@string/sure"
+                android:textColor="@android:color/white"
+                android:background="@drawable/blue_selector"/>
+
+            <Button
+                android:text="@string/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_update_cancel"
+                android:layout_weight="1"
+                android:background="@drawable/white_selector"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

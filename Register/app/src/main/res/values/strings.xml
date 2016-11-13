@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">考勤点名</string>
+    <string name="username">用户名：</string>
+    <string name="password">密&#160;&#160;&#160;&#160;码：</string>
+    <string name="login">登录</string>
+    <string-array name="classtime">
+        <item>第一课时</item><item>第二课时</item>
+        <item>第三课时</item><item>第四课时</item>
+        <item>第五课时</item><item>第六课时</item>
+        <item>第七课时</item><item>第八课时</item>
+        <item>第九课时</item><item>第十课时</item>
+        <item>第十一课时</item><item>第十二课时</item>
+        <item>第十三课时</item><item>第十四课时</item>
+        <item>第十五课时</item><item>第十六课时</item>
+        <item>第十七课时</item><item>第十八课时</item>
+        <item>第十九课时</item><item>第二十课时</item>
+    </string-array>
+    <string name="zaiqin">在勤</string>
+    <string name="chidao">迟到</string>
+    <string name="zaotui">早退</string>
+    <string name="kuangke">旷课</string>
+    <string name="bingjia">病假</string>
+    <string name="sure">确&#160;定</string>
+    <string name="cancel">取&#160;消</string>
+    <string name="upPortrait">上&#160;传&#160;照&#160;片</string>
+    <string-array name="records">
+        <item>课时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;在勤&#160;迟到&#160;早退&#160;旷课&#160;病假</item>
+        <item>第一课时&#160;&#160;&#160;&#160;在勤</item>
+        <item>第二课时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;迟到</item>
+        <item>第三课时&#160;&#160;&#160;&#160;在勤</item>
+        <item>第四课时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;迟到</item>
+        <item>第五课时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;迟到</item>
+        <item>第六课时&#160;&#160;&#160;&#160;在勤</item>
+        <item>第七课时&#160;&#160;&#160;&#160;在勤</item>
+        <item>第八课时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;迟到</item>
+        <item>第九课时&#160;&#160;&#160;&#160;在勤</item>
+    </string-array>
+</resources>

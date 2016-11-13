@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white_frame">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6">
+            <TextView
+                android:text="学号："
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/textView"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:gravity="center_vertical" />
+            <EditText
+                android:id="@+id/ET_add_sno"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:inputType="number"
+                android:hint="请输入学号"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:background="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white_frame"
+        android:weightSum="6">
+
+        <TextView
+            android:text="姓名："
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical"
+            android:textSize="14sp" />
+        <EditText
+            android:id="@+id/ET_add_sname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:inputType="text"
+            android:hint="请输入姓名"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:background="@null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white_frame"
+        android:weightSum="6">
+
+        <TextView
+            android:text="班级："
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/ET_add_class"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:textSize="14sp"
+            android:inputType="text"
+            android:hint="请输入班级"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <Button
+            android:text="@string/upPortrait"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/btn_add_up"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/blue_selector"
+            android:textSize="14sp"
+            android:autoText="false" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="4">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/btn_add_sure"
+                    android:layout_weight="1"
+                    android:text="@string/sure"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/blue_selector"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="4">
+                <Button
+                    android:text="@string/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/btn_add_cancel"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_selector"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
